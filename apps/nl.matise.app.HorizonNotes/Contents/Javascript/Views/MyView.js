@@ -9,7 +9,7 @@ var MyView = new MAF.Class({
 		// Reference to the current view
 		var view = this;
 		view.elements.ourText = new MAF.element.Text( {
-	    label: MAF.mediaplayer.currentAsset.title,
+	    label: MAF.mediaplayer.getCurrentChannel().number,
 	    styles:{
 	      width: this.width,
 	      height: this.height,
@@ -23,7 +23,7 @@ var MyView = new MAF.Class({
 	// the update view is called
 	updateView: function () {
 		console.log('fiss');
-		console.log(MAF.mediaplayer);
+		console.log(MAF.mediaplayer.getCurrentChannel());
 		// Reference to the current view
 		var view = this;
 	},
