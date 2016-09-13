@@ -30,6 +30,7 @@ var MyView = new MAF.Class({
 			},
 			ClassName: 'topContainer'
 		}).appendTo(this);
+		view.elements.topContainer.element.innerHTML = '<p>Hoi wereld</p>';
 
 		// Set listeners for Room and Connection
 		(function(evt) {
@@ -90,6 +91,7 @@ var MyView = new MAF.Class({
 
 		// If Room socket is connected create and join room
 		if (room.connected) room.join();
+
 	},
 
 	// After create view and when returning to the view
