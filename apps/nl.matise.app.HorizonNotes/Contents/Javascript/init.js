@@ -12,7 +12,7 @@ var IframeView = (function (url) {
 			MAF.system.setUrl(null);
 		}
 	});
-}('App/dist/index.html'));
+}('index.html'));
 
 MAF.mediaplayer.init();
 
