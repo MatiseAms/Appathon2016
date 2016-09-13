@@ -1,3 +1,3 @@
 Theme.set(
-  {"topContainer": {"styles": {"backgroundColor": "fuchsia"} } }
+  {"topContainer": {"styles": {"backgroundColor": "#2ddfbb"} } } 
 );
