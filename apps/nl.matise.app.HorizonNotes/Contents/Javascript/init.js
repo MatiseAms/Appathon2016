@@ -1,9 +1,7 @@
 // Include your views
-include('Styles/app.css');
-// include('Styles/theme.js');
+include('Styles/theme.js');
 include('Javascript/Views/MyView.js');
 
-// Init application with view config
 MAF.application.init({
 	views: [
 		{ id: 'view-MyView', viewClass: MyView }

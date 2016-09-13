@@ -8,6 +8,7 @@ var MyView = new MAF.Class({
 	createView: function () {
 		// Reference to the current view
 		var view = this;
+
 		view.elements.topContainer = new MAF.element.Container( {
 	    styles:{
 	      width: 200,
