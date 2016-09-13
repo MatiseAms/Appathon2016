@@ -1,0 +1,19 @@
+{
+  "identifier": "_nl.matise.app.HorizonNotes",
+  "name": "HorizonNotes",
+  "version": "0.0.2",
+  "author": "Matise",
+  "company": "Matise",
+  "copyright": "Matise 2016",
+  "description": "Epic kareoke app",
+  "categories": [
+    "video"
+  ],
+  "scripts": "Javascript/init.js",
+  "images": {
+    "about": "Images/Icon.png",
+    "icon": {
+      "192x192": "Images/Icon.png"
+    }
+  }
+}
