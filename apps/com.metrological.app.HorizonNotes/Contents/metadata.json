@@ -7,7 +7,7 @@
   "copyright": "Matise 2016",
   "description": "Epic kareoke app",
   "categories": [
-    "video", "music"
+    "video"
   ],
   "scripts": "Javascript/init.js",
   "images": {
