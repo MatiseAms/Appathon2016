@@ -8,13 +8,23 @@ var MyView = new MAF.Class({
 	createView: function () {
 		// Reference to the current view
 		var view = this;
+		view.elements.ourText = new MAF.element.Text( {
+	    label: MAF.mediaplayer.currentAsset.title,
+	    styles:{
+	      width: this.width,
+	      height: this.height,
+	      fontSize: 60,
+	      anchorStyle: 'center'
+	    }
+	  } ).appendTo( view );
 	},
 
 	// After create view and when returning to the view
 	// the update view is called
 	updateView: function () {
 		console.log('fiss');
+		console.log(MAF.mediaplayer);
 		// Reference to the current view
 		var view = this;
-	}
+	},
 });
