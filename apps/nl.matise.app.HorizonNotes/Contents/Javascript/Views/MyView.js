@@ -18,7 +18,7 @@ var MyView = new MAF.Class({
 	    },
 			ClassName: 'topContainer'
 	  } ).appendTo( this );
-
+		view.elements.topContainer.element.innerHTML = '<p>Hoi wereld</p>';
 	},
 
 	// After create view and when returning to the view
