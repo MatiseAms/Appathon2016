@@ -1,12 +1,25 @@
-// Include your views
-include('Javascript/Views/MyView.js');
+var IframeView = (function (url) {
+	return new MAF.Class({
+		Extends: MAF.system.FullscreenView,
 
-// Init application with view config
+		ClassName: 'IframeView',
+
+		createView: function () {
+			MAF.system.setUrl(widget.getUrl(url));
+		},
+
+		destroyView: function () {
+			MAF.system.setUrl(null);
+		}
+	});
+}('App/dist/index.html'));
+
+MAF.mediaplayer.init();
+
 MAF.application.init({
 	views: [
-		{ id: 'view-MyView', viewClass: MyView },
-		{ id: 'view-About', viewClass: MAF.views.AboutBox } // Use standard About view
+		{ id: 'view-IframeView', viewClass: IframeView }
 	],
-	defaultViewId: 'view-MyView', // Declare what view to be loaded when opening the app
-	settingsViewId: 'view-About' // Declare what view is opened when a used loads the settings
+	defaultViewId: 'view-IframeView',
+	settingsViewId: 'view-IframeView'
 });
