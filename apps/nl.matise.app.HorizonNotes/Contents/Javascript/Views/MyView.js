@@ -10,6 +10,7 @@ var MyView = new MAF.Class({
 		// this.room = new MAF.Room( this.ClassName );
 		// Create a Room for this specific household
 		this.room = new MAF.PrivateRoom('MatiseFissa');
+		console.log(this.room);
 	},
 
 
