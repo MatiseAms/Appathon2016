@@ -1,11 +1,11 @@
 {
   "identifier": "nl.matise.app.HorizonNotes",
-  "name": "HorizonNotes",
-  "version": "0.0.5",
+  "name": "Horizon Notes",
+  "version": "0.1.0",
   "author": "Matise",
   "company": "Matise",
   "copyright": "Matise 2016",
-  "description": "Epic kareoke app",
+  "description": "A real sing-a-long multiplayer game, guess the songs on any TV channel and sing-a-long to amaze your friends!",
   "categories": [
     "video"
   ],
