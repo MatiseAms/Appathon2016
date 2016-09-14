@@ -1,4 +1,5 @@
 // Include your views
+// include('Styles/app.css');
 include('Styles/theme.js');
 include('Javascript/Views/MyView.js');
 
